@@ -2,9 +2,9 @@ These are some of the Automation tests for Spot The Bug challenge.
 
 List-of-Bugs-on-Register-Page.docx contains the list of bugs.
 
-##List of Bugs on Register Page
+## List of Bugs on Register Page
 
-##Form Validation Bugs
+## Form Validation Bugs
 1.	Open form and click register button without filling any data. Only password field error is displayed. 
 Error should be displayed for all missing fields.
 2.	Label element’s “for” attribute doesn’t match the “id” attribute of the corresponding input field. This might prevent the accessibility tools from working correctly.
@@ -31,7 +31,7 @@ b.	field is disabled.
 
 ![alt text](image-1.png)
 
-##UI Bugs
+## UI Bugs
 13.	 "X" button in header appears out of place.
 14.	 Inconsistent spacing between fields.
 15.	 "Note: All the fields marked with * are mandatory" text should be displayed before first field on the form.
@@ -43,14 +43,14 @@ b.	field is disabled.
 21.	Password field placeholder should be “Enter Password” to keep it consistent with placeholders of other fields.
 22.	 Email field placeholder should be "Enter email address" to keep it consistent with other fields.
 
-##Mobile View
+## Mobile View
 23.	 Heading should resize dynamically as per mobile view size.
 24.	 Country field list items font too small in mobile view. 
 25.	 Home and Contact header fields change to hamburger icon in mobile view resulting in two menu icons.
 
 ![alt text](image-2.png)
 
-##To run the tests on local follow the steps.
+## To run the tests on local follow the steps.
 1. Clone the repository
 2. cd into repo folder
 3. npm run install
